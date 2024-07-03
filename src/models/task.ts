@@ -9,6 +9,7 @@ export interface Task {
 }
 
 export interface TaskDocument extends Task, Document {
+    _id: string;
     createdAt: Date;
     updatedAt: Date;
 }
